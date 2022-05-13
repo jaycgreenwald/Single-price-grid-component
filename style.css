@@ -118,6 +118,12 @@ body {
     font-weight: 700;
     margin-top: 25px;
     box-shadow: 6px 9px 15px -3px hsl(179, 31%, 40%);
+    transition: box-shadow 100ms, transform 100ms;
+}
+
+.card__signup-btn:hover {
+    box-shadow: 9px 12px 15px 0px hsl(179, 31%, 40%);
+    transform: scale(1.05);
 }
 
 .card__whyus {
